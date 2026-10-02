@@ -9,6 +9,7 @@ body {
     line-height: 1.5;
     color: #333;
 }
+
 /* NAV */
 .navbar {
     position: relative;
@@ -23,6 +24,7 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
 }
+
 /* HamburgerB */
 .nav-toggle {
     display: block;
@@ -63,6 +65,7 @@ body {
     content: "";
     top: 8px;
 }
+
 /* NavLINK */
 .nav-links {
     list-style: none;
@@ -86,10 +89,12 @@ body {
 .nav-links a:hover {
     background: #444;
 }
+
 /* Toggle navLINK on check */
 .nav-toggle:checked + .nav-toggle-label + .nav-links {
     display: flex;
 }
+
 /* HERO */
 .hero {
     background: url('https://picsum.photos/1600/800') center/cover no-repeat;
@@ -114,6 +119,7 @@ body {
     font-size: 1.125rem;
     margin-bottom: 1rem;
 }
+
 /* CARDS */
 .cards {
     display: flex;
@@ -148,6 +154,7 @@ body {
 .card-link:hover {
     text-decoration: underline;
 }
+
 /* CONTENT SECTIONS */
 .content-section {
 	display: flex;
@@ -165,6 +172,7 @@ body {
 .content-section.reverse {
     flex-direction: column;
 }
+
 /* FOOTER */
 .footer {
     display: flex;
@@ -207,6 +215,7 @@ body {
     margin-top: 0.75rem;
     width: 100%;
 }
+
 /* SOCIAL ICONS */
 .footer .icons {
     display: flex;
@@ -218,6 +227,7 @@ body {
     text-decoration: none;
     color: #eee;
 }
+
 /* TABLET (≥376px) */
 @media (min-width: 376px) {
     .content-section {
@@ -248,6 +258,7 @@ body {
         flex: 1 1 calc(25% - 1rem);
     }
 }
+
 /* DESKTOP (≥769px) */
 @media (min-width: 769px) {
     .cards {
